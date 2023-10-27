@@ -1,0 +1,1 @@
+MAX_TIME_OUT = 10 * 60
