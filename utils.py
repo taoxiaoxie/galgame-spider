@@ -2,6 +2,7 @@ import json
 import os
 import glob
 import re
+from datetime import datetime
 
 def rename_json_files(dir_path):
     # 获取指定目录下所有以.json结尾的文件
@@ -64,6 +65,15 @@ def deprecated_load_all_character_name_and_id():
 def load_all_character_name_and_id():
     json_path = "name_and_id.json"
     return json.load(open(json_path, "r", encoding="utf-8"))
+
+def get_current_time():
+
+    # Get current date and time
+    now = datetime.now()
+
+    # Format it in the HTTP date format
+    http_date = now.strftime("%a, %d %b %Y %H:%M:%S GMT")
+    return http_date
 
 if __name__ == "__main__":
     character_name_and_id = load_all_character_name_and_id()
