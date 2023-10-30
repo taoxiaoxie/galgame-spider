@@ -3,6 +3,71 @@ import os
 import glob
 import re
 from datetime import datetime
+from bs4 import BeautifulSoup
+from config import CHARACTER_INFO_TEMPLATE
+# 用于跟踪所有实例中行数最大的表格
+max_rows_global = 0
+
+
+def print_table_entries(html_text):
+    # 解析HTML文本
+    soup = BeautifulSoup(html_text, 'html.parser')
+
+    # 查找所有的表格
+    tables = soup.find_all('table', class_='stripe')
+
+    for table_number, table in enumerate(tables, start=1):
+        print(f"Table {table_number}:")
+
+        # 查找表格中的所有行
+        rows = table.find_all('tr')
+
+        # 更新全局变量
+        if len(rows) > max_rows_global:
+            max_rows_global = len(rows)
+
+        for row_number, row in enumerate(rows, start=1):
+            # 查找行中的所有单元格
+            cells = row.find_all(['td', 'th'])
+
+            # 获取单元格中的文本并将其连接成一个字符串
+            row_text = ' | '.join(cell.get_text(strip=True) for cell in cells)
+
+            print(f"Row {row_number}: {row_text}")
+
+        print('-' * 50)  # 打印分隔线以区分不同的表格
+
+    # 打印所有实例中行数最大的表格的行数
+    print(f"Max rows in all instances: {max_rows_global}")
+
+
+async def parse_character_info(html_text):
+    # 解析HTML文本
+    soup = BeautifulSoup(html_text, 'html.parser')
+
+    # 查找所有的表格
+    tables = soup.find_all('table', class_='stripe')
+
+    character_info = CHARACTER_INFO_TEMPLATE.copy()
+    for table in tables:
+        rows = table.find_all('tr')
+        for row_number, row in enumerate(rows, start=1):
+            cells = row.find_all(['td', 'th'])
+            row_text = ' | '.join(cell.get_text(strip=True) for cell in cells)
+
+            # 第一行默认为名字
+            if row_number == 1:
+                character_info['name'] = row_text
+            else:
+                # 尝试匹配其他属性
+                for key in character_info.keys():
+                    if key in row_text.lower():
+                        value = row_text.split('|', 1)[-1].strip()
+                        character_info[key] = value
+                        break
+
+    return character_info
+
 
 def rename_json_files(dir_path):
     # 获取指定目录下所有以.json结尾的文件
