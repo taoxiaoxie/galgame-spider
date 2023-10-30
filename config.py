@@ -1,7 +1,6 @@
 MAX_TIME_OUT = 10 * 60
 HEADERS = {
     "Content-Encoding": "gzip",
-    "Content-Length": "3100",
     "Content-Security-Policy": "default-src 'none'; connect-src 'self' https://api.vndb.org; img-src *; script-src https://*.vndb.org; style-src 'unsafe-inline' https://vndb.org https://*.vndb.org; form-action 'self'; frame-ancestors 'none'",
     "Content-Type": "text/html; charset=UTF-8",
     "Date": "Fri, 27 Oct 2023 11:59:54 GMT",

@@ -10,7 +10,10 @@ def main():
     characters = api.Type(QType.CHARACTER).Filters(filters).Fields("name, "
                                                                    "image.url, "
                                                                    "description, "
-                                                                   "aliases").Results(2).Get()
+                                                                   "role, "
+
+                                                                   
+                                                                   "aliases",).Results(2).Get()
     # characters = api.Type(QType.CHARACTER).Fields("id, name, image.url, description, traits.name").Results(2).Filters(
     #     ).Get()
 
