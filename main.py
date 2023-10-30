@@ -65,9 +65,14 @@ async def save_to_jsonl(data, filename="output.jsonl"):
 async def fetch_and_save_character_info(crawler, character_id, semaphore):
     async with semaphore:
         character_info = await crawler.get_character_info(character_id)
+
         if character_info:
+            # print_table_entries(character_info)
+
             parsed_character_info = await parse_character_info(character_info)
             parsed_character_info['id'] = character_id
+            # print_table_entries(parsed_character_info)
+            logger.info(f"Character info: {parsed_character_info}")
             logger.info(f"Saved character info for {character_id}")
             await save_to_jsonl(parsed_character_info)
 
@@ -76,7 +81,7 @@ async def main():
     crawler = GalGameCharacterCrawler(BASE_URL, MAX_TIME_OUT)
     character_name_and_id = load_all_character_name_and_id()
     character_ids = list(character_name_and_id.values())
-
+    character_ids = ["c12333"]
     # 定义协程数目
     semaphore = asyncio.Semaphore(COROUTINE_LIMIT)
     logger.info(f"Start to crawl {len(character_ids)} characters")

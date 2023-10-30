@@ -23,8 +23,7 @@ def print_table_entries(html_text):
         rows = table.find_all('tr')
 
         # 更新全局变量
-        if len(rows) > max_rows_global:
-            max_rows_global = len(rows)
+
 
         for row_number, row in enumerate(rows, start=1):
             # 查找行中的所有单元格
@@ -54,14 +53,17 @@ async def parse_character_info(html_text):
         for row_number, row in enumerate(rows, start=1):
             cells = row.find_all(['td', 'th'])
             row_text = ' | '.join(cell.get_text(strip=True) for cell in cells)
-
+            if "description" in row_text.lower():
+                description_idx = row_text.lower().index("description")
+                description_content = row_text[description_idx + len("description") + 1:]
+                row_text = "description | " + description_content
             # 第一行默认为名字
             if row_number == 1:
                 character_info['name'] = row_text
             else:
                 # 尝试匹配其他属性
                 for key in character_info.keys():
-                    if key in row_text.lower():
+                    if key in row_text.split('|')[0].lower():
                         value = row_text.split('|', 1)[-1].strip()
                         character_info[key] = value
                         break
