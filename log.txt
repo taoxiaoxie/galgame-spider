@@ -1,0 +1,639 @@
+
+Analysis for field: personality
+Watashi: 289
+Kind: 257
+Friendly: 242
+Hard Worker: 135
+Smart: 124
+Ore: 111
+Proactive: 107
+Refined: 101
+Blunt: 97
+Serious: 97
+Relaxed: 96
+Reserved: 94
+Energetic: 94
+Outgoing: 87
+Loyal: 86
+Stubborn: 84
+Carefree: 84
+Funny: 82
+Protective: 81
+Airhead: 80
+Short-tempered: 72
+Arrogant: 70
+Mischievous: 69
+Sharp-tongued: 65
+Confident: 63
+Stoic: 63
+Mysterious: 62
+Pervert: 61
+Loud: 61
+Curious: 59
+Strict: 58
+Strange: 58
+Atashi: 57
+Shy: 57
+Honest: 55
+Cheerful: 53
+Naive: 52
+Insightful: 52
+Mature: 52
+Boku: 51
+Food Lover: 49
+Deredere: 45
+Secretive: 45
+Clumsy: 44
+Emotional: 41
+Genius: 40
+Altruistic: 39
+Charismatic: 39
+Honorable: 37
+Cynic: 37
+Timid: 36
+Immature: 36
+Rude: 36
+Competitive: 36
+Low Self-esteem: 35
+Ignorant: 34
+Cold-hearted: 33
+Hotblooded: 33
+Third Person: 32
+Wise: 31
+Optimist: 31
+Loner: 30
+Flustered: 30
+Cruel: 30
+Cautious: 29
+Antisocial: 29
+Sweets Lover: 29
+Taciturn: 29
+Tsundere: 29
+Otaku: 28
+Selfish: 27
+Violent: 27
+Tomboy: 27
+Distrustful: 25
+Opposite Gender Voiced: 25
+Nature Lover: 24
+Lazy: 24
+Ambitious: 23
+Sly: 23
+Pragmatic: 23
+Watakushi: 23
+Brave: 22
+Bookworm: 22
+Idiot: 22
+Jealous: 21
+Docile: 21
+Assertive: 20
+Closet Pervert: 19
+Whimsical: 19
+Grumbler: 19
+Talkative: 19
+Observant: 18
+Patriotic: 18
+Manipulative: 17
+Pacifist: 17
+Pretending: 17
+Desu: 17
+Sleepyhead: 16
+Idealist: 15
+Sensitive: 15
+Possessive: 14
+Childishly Violent: 14
+Brother Complex: 13
+Modern Tsundere: 13
+Religious: 13
+Classic Tsundere: 13
+Money Lover: 13
+Disciplinarian: 13
+Chuunibyou: 12
+Spoiled: 12
+Obedient: 12
+Family Oriented: 12
+Coodere: 11
+Streetwise: 11
+Ara Ara: 11
+Vindictive: 11
+Genre Savvy: 11
+Moody: 10
+Puffy: 10
+Donkan: 10
+Old-fashioned: 10
+Overconfident: 10
+Stylish: 10
+Eccentric: 9
+Washi: 9
+Absentminded: 9
+Perfectionist: 8
+Gloomy: 7
+Sister Complex: 7
+Rebellious: 7
+Promiscuous: 7
+Daydreamer: 7
+Womanizer: 7
+Desu wa: 7
+BL Fan: 6
+Atheist: 6
+Grandiosit: 6
+Coward: 6
+Cat Person: 6
+Keigo: 6
+Ore-sama: 6
+Workaholic: 5
+Sloppy: 5
+Uchi: 5
+Narcissist: 5
+Archaic Dialect: 5
+Gossipy: 5
+Atakushi: 5
+Patient: 4
+Made-up Words: 4
+Nanoja: 4
+Foreign Accent: 4
+Kansai-ben: 4
+Sociopath: 4
+Dandere: 4
+Japanophile: 4
+Jibun: 4
+Misanthrope: 4
+Misogynist: 3
+Pessimist: 3
+Stutter: 3
+Dog Person: 3
+Puns: 3
+Obsessive: 3
+Masculine Speech: 3
+Romantic: 3
+Japanese Dialect: 3
+Sonata: 3
+2D Character Lover: 2
+Quiet: 2
+Hetare: 2
+Misandrist: 2
+Dishonest: 2
+Haraguro: 2
+Superstitious: 2
+Yandere: 2
+Atai: 2
+Superficial: 2
+Religious Extremist: 2
+Wagahai: 2
+Mother Complex: 1
+Incorruptible: 1
+Flamboyant: 1
+Yo: 1
+Jock: 1
+Henpecked: 1
+Himedere: 1
+Nihilist: 1
+Unlucky: 1
+De gozaru: 1
+Sessha: 1
+Humble: 1
+One-Word Vocabulary: 1
+Creative: 1
+Laconic Speech: 1
+Cinephile: 1
+Transgender: 1
+Transwoman: 1
+-ssu: 1
+Nano: 1
+Mayadere: 1
+Effeminate: 1
+Waga: 1
+Ware: 1
+Lucky: 1
+Romantically Indecisive: 1
+Warawa: 1
+Desu no: 1
+Son Complex: 1
+Thrifty: 1
+Uneducated: 1
+
+Analysis for field: role
+Friend: 261
+High School Student: 210
+Classmate: 198
+Eleventh Grader: 136
+Senpai: 126
+Childhood Friend: 119
+Kouhai: 112
+Daughter: 86
+Schoolmate: 82
+Popular: 76
+Homosexual: 59
+Roommate: 53
+Full Sister: 51
+Wealthy: 51
+Younger Sister: 46
+Orphan: 45
+Rival: 44
+Son: 43
+Comrade: 43
+Gamer: 42
+Older Sister: 40
+Transfer Student: 37
+Tenth Grader: 35
+Father: 35
+Neighbor: 35
+University Student: 33
+Not a Virgin: 33
+Twelfth Grader: 33
+Teacher: 33
+Soldier: 33
+Part-time Worker: 31
+Magician: 30
+Tsukkomi: 29
+Older Brother: 28
+Pet Owner: 28
+Mother: 27
+Same Year Student: 25
+Full Brother: 23
+Honor Student: 23
+Superhuman: 23
+Twin Sister: 23
+Antagonist: 23
+German: 23
+Waitstaff: 22
+American: 22
+Villain: 22
+Girlfriend: 21
+Poor: 21
+Living Alone: 20
+Shopkeeper: 20
+Foreigner: 20
+Mecha Pilot: 20
+Maid: 19
+Management: 19
+Based on a Real Person: 19
+Present in Flashbacks Only: 19
+Famous: 18
+Pet: 18
+Lieutenant: 18
+School Occult Club Member: 18
+Husband: 17
+Delinquent: 17
+Cat: 16
+Non-blood-related Sister: 16
+Infamous: 15
+Class President: 15
+Coworker: 15
+Executive: 15
+School Science Club Member: 15
+Idol: 14
+Cousin: 14
+Journalist: 14
+Medical Doctor: 14
+British: 14
+Wife: 14
+Student Council Member: 13
+Servant: 13
+Vampire: 13
+Volunteer Worker: 13
+Angel: 13
+Bodyguard: 13
+Russian: 13
+Superstrength: 13
+Half-Japanese: 12
+Ojousama: 12
+Student Council President: 12
+Familiar: 12
+Robot: 12
+Criminal: 11
+Younger Brother: 11
+Cook: 11
+Discipline Committee Member: 11
+Commander: 11
+No Name: 11
+Domestic Partner: 11
+Boyfriend: 11
+Butler: 11
+Homeroom Teacher: 11
+Monster Girl: 11
+Based on a Fictional Character: 11
+Half-orphan: 10
+Lonely: 10
+Bisexual: 10
+Detective: 10
+Gang Leader: 10
+Bad Student: 10
+Miko: 10
+Construct: 10
+Researcher: 9
+Student: 9
+Yamato Nadeshiko: 9
+Butt Monkey: 9
+Cadet: 9
+Painter: 9
+School Occult Club President: 9
+Student Club President: 9
+Library Committee Member: 9
+Single Parent: 8
+Niece: 8
+Secret Identity: 8
+Employee: 8
+Politician: 8
+Inventor: 8
+Warrior: 8
+Succubus: 8
+School Extraordinary Club Member: 8
+Secretary: 8
+Granddaughter: 8
+Librarian: 8
+Master: 8
+Pseudonym: 8
+Multilingual: 8
+Foreign Exchange Student: 7
+Twin Brother: 7
+Scientist: 7
+Noble: 7
+Betrothed: 7
+Head of Household: 7
+Kanban Musume: 7
+Acquaintance: 7
+Nameable: 7
+Mentor: 7
+Fairy: 7
+Blogger: 7
+Chinese: 6
+Police: 6
+Non-blood-related Brother: 6
+Artificial Intelligence: 6
+Student Club Member: 6
+Pianist: 6
+Coach: 6
+Terrorist: 6
+School Basketball Club Member: 6
+Criminal Accomplice: 6
+Dog: 6
+Elf: 6
+Demon: 6
+Student Council Vice President: 6
+Dormitory Manager: 6
+Princess: 6
+Grandfather: 6
+Ghost: 6
+Tutor: 6
+Bartender: 5
+Baker: 5
+Member of a Sect: 5
+Writer: 5
+Italian: 5
+French: 5
+Singer: 5
+Grandson: 5
+Shop Clerk: 5
+Title Character: 5
+Widower: 5
+School Art Club Member: 5
+Rabbit: 5
+Nurse: 5
+Non-blood-related Mother: 5
+Broadcasting Committee Member: 5
+Band Member: 5
+Guide: 5
+Non-blood-related Daughter: 5
+Deity: 5
+School Newspaper Club Member: 5
+Middle Sister: 5
+Extraterrestrial: 5
+Middle Brother: 4
+Musician: 4
+Merchant: 4
+Hero: 4
+Non-blood-related Son: 4
+Middle School Student: 4
+School Sports Club Member: 4
+Hacker: 4
+Aunt: 4
+Mechanic: 4
+Vendor: 4
+Samurai: 4
+Legal Guardian: 4
+Knight: 4
+Non-blood-related Father: 4
+Yakuza: 4
+Runaway: 4
+Violinist: 4
+Student Club Advisor: 4
+Widow: 4
+Premier: 4
+Guitarist: 4
+Unpopular: 4
+Cyborg: 4
+Figment: 4
+Adventurer: 4
+Slime: 4
+Mascot Character: 4
+Shinigami: 4
+Shinto Priest: 4
+School Baseball Club Member: 4
+School Kyudo Club Member: 3
+Spy: 3
+Elementary School Student: 3
+Coder: 3
+Actor: 3
+Employer: 3
+Not an Anal Virgin: 3
+Captain: 3
+Driver: 3
+Communications Officer: 3
+Uncle: 3
+Living Doll: 3
+School Nurse: 3
+Ex-boyfriend: 3
+Dragon: 3
+Ghost Member of School Club: 3
+Comic Artist: 3
+Non-human: 3
+School Gang Member: 3
+Medical Student: 3
+PE Teacher: 3
+Healer: 3
+School Athletic Club Member: 3
+School Kendo Club Member: 3
+Inn Manager: 3
+Precog: 3
+Fortune Teller: 3
+Telepath: 3
+Monster: 3
+Illustrator: 3
+Anthropomorphized Inanimate Object: 3
+Oni: 3
+Discipline Committee Leader: 3
+Royal Guard: 3
+Head of a Sect: 3
+School Extraordinary Club President: 3
+Principal: 3
+European: 3
+Biker: 2
+Christian Priest: 2
+Repeater: 2
+Based on a Vocaloid Character: 2
+Landlord: 2
+Producer: 2
+Sniper: 2
+Homeless: 2
+Street Performer: 2
+Office Lady: 2
+Half-sister: 2
+Serial Killer: 2
+Goblin: 2
+Psychic: 2
+School Tennis Club Member: 2
+Unofficial School Club Member: 2
+Mistress: 2
+Editor: 2
+Student Council Treasurer: 2
+Video Game Developer: 2
+Housekeeper: 2
+Wolf: 2
+School Gang Leader: 2
+Half-brother: 2
+President: 2
+Keyboardist: 2
+Tattoo Artist: 2
+Bear: 2
+Ninja: 2
+Gang Member: 2
+Offspring: 2
+School Cultural Club Member: 2
+Croupier: 2
+School Science Club President: 2
+Masochist: 2
+Bird: 2
+Beautician: 2
+Grandmother: 2
+Pharmacist: 2
+Fox: 2
+Queen Regnant: 2
+Alchemist: 2
+Finnish: 2
+Professional Photographer: 2
+Temporary Protagonist: 2
+Mayor: 2
+Dropout: 2
+Engineer: 2
+School Athletic Club President: 2
+Daycare Worker: 2
+Son-in-law: 2
+Unemployed: 2
+Psychiatrist: 2
+Father-in-law: 2
+Onzoushi: 2
+Housewife: 2
+Train Driver: 2
+Ane Act: 2
+Snake Person: 2
+Model: 2
+Clone: 2
+Thrall: 2
+Demon Blooded: 2
+Social Worker: 1
+Ninth Grader: 1
+Werewolf: 1
+Third Grader: 1
+Social Organization Leader: 1
+Psychologist: 1
+African: 1
+Pilot: 1
+School Basketball Club President: 1
+News Presenter: 1
+Slave Owner: 1
+Prostitute: 1
+Sculptor: 1
+Mercenary: 1
+Barista: 1
+Illegitimate Child: 1
+Kindergartener: 1
+Revolutionary: 1
+Hellhound: 1
+Student Council Secretary: 1
+School Tea Ceremony Club President: 1
+School Tea Ceremony Club Member: 1
+Fifth Grader: 1
+Mahou Shoujo: 1
+Boar: 1
+Band Leader: 1
+Bassist: 1
+Drummer: 1
+School Literature Club Member: 1
+School Music Club Member: 1
+Brother-in-law: 1
+Pyrokinetic: 1
+Superhero: 1
+School Newspaper Club President: 1
+Divorcee: 1
+Ward: 1
+Receptionist: 1
+Genie: 1
+Cellist: 1
+Half Vampire: 1
+Informant: 1
+Parrot: 1
+School Drama Club Member: 1
+Voice Actor: 1
+Cheerleader: 1
+Online Content Creator: 1
+Nun: 1
+Priest: 1
+Zombie: 1
+King: 1
+Hunter: 1
+Erotic Voice Actor: 1
+Conductor: 1
+School Swimming Club Member: 1
+School PC Club Member: 1
+Mafia: 1
+Pirate: 1
+Tailor: 1
+Crown Princess: 1
+Comedian: 1
+Online Streamer: 1
+Imouto Act: 1
+Astronaut: 1
+Nephew: 1
+Archeologist: 1
+Janitor: 1
+Vagabond: 1
+Veteran: 1
+Coroner: 1
+Sex Friend: 1
+Mother-in-law: 1
+Prisoner: 1
+Secret Girlfriend: 1
+Ex-girlfriend: 1
+Art Teacher: 1
+Exorcist: 1
+Sister-in-law: 1
+NEET: 1
+Zashiki-Warashi: 1
+School Kyudo Club President: 1
+Step Sister: 1
+Superspeed: 1
+Fish: 1
+Judge: 1
+Maou: 1
+Monarch: 1
+Gnome: 1
+Polish: 1
+Indian: 1
+Major: 1
+School "Go Home Club" Member: 1
+Shogun: 1
+Chauffeur: 1
+Office Worker: 1
+Ambassador: 1
+Health Committee Member: 1
+University Teacher: 1
+Fashion Designer: 1
+Spirit: 1
+Therapist: 1
+Blacksmith: 1
+Minotaur: 1
+Construction Worker: 1
+Dwarf: 1
+Dancer: 1
+Host(ess): 1

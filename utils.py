@@ -9,6 +9,18 @@ from config import CHARACTER_INFO_TEMPLATE
 max_rows_global = 0
 
 
+async def remove_null_values_from_jsonl(input_file_path, output_file_path):
+    import json
+
+    with open(input_file_path, "r", encoding="utf-8") as infile, \
+         open(output_file_path, "w", encoding="utf-8") as outfile:
+        for line in infile:
+            data = json.loads(line)
+            # 使用字典推导式来移除值为None的键值对
+            cleaned_data = {k: v for k, v in data.items() if v is not None}
+            outfile.write(json.dumps(cleaned_data) + "\n")
+
+
 def print_table_entries(html_text):
     # 解析HTML文本
     soup = BeautifulSoup(html_text, 'html.parser')
