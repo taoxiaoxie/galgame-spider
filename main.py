@@ -21,6 +21,18 @@ from tqdm.asyncio import tqdm
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
+import json
+import nltk
+from collections import defaultdict
+from transformers import AutoTokenizer, AutoModel
+import torch
+from scipy.spatial.distance import cosine
+
+nltk.download('punkt')
+# 初始化 BERT 模型及分词器
+tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+model = AutoModel.from_pretrained('bert-base-uncased')
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -187,7 +199,77 @@ def analyze_and_plot_fields(input_file, fields):
         plt.ylabel('Count')
         plt.show()
 
+# 为输入文本获取BERT嵌入向量
+def get_embedding(text):
+    inputs = tokenizer(text, return_tensors='pt')
+    outputs = model(**inputs)
+    return outputs.last_hidden_state.mean(1).squeeze(0).detach().numpy()  # 使用 squeeze(0) 净化输出
+
+# BERT相似性匹配操作
+def process_jsonl(input_file, output_file):
+    with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
+        for line in f_in:
+            data = json.loads(line)
+            personality_list = []
+            if 'personality' in data and 'description' in data:
+                personality_list = data['personality'].split(',')
+                description_sentences = nltk.sent_tokenize(data['description'])
+            else:
+                continue
+            mapping = defaultdict(list)
+
+            for trait in personality_list:
+                trait_emb = get_embedding(trait)
+
+                for sentence in description_sentences:
+                    sentence_emb = get_embedding(sentence)
+
+                    sim = 1 - cosine(trait_emb, sentence_emb)
+
+                    if sim > 0.7: # Set your threshold
+                        mapping[trait].append(sentence)
+
+            data['mapping'] = dict(mapping)
+            f_out.write(json.dumps(data) + '\n')
+
+def get_mappings(input_file, output_file):
+    all_personalities = set()
+    all_descriptions = ""
+
+    with open(input_file, 'r') as f_in:
+        personality_list = []
+        for line in f_in:
+            data = json.loads(line)
+            if 'personality' in data and 'description' in data:
+                personality_list = data['personality'].split(',')
+                all_personalities.update(personality_list)
+                all_descriptions += " " + data['description']
+
+    description_sentences = nltk.sent_tokenize(all_descriptions)
+
+    mapping = defaultdict(list)
+    with open(output_file, 'a+') as f_out:
+        for trait in all_personalities:
+            if trait=='Smart':
+                print("Smart")
+            trait_emb = get_embedding(trait)
+            
+            for sentence in description_sentences:
+                sentence_emb = get_embedding(sentence)
+                
+                sim = 1 - cosine(trait_emb, sentence_emb)
+                
+                if sim > 0.3:  # Set your threshold
+                    mapping[trait].append(sentence)
+
+    
+        f_out.write(json.dumps(dict(mapping)) + '\n')
+
+
+
 if __name__ == "__main__":
     # asyncio.run(main())
-    read_and_filter_jsonl("output_test.jsonl", "output_filter.jsonl")
-    analyze_and_plot_fields("output_filter.jsonl", ['personality', 'role'])
+    # read_and_filter_jsonl("output_test.jsonl", "output_filter.jsonl")
+    # analyze_and_plot_fields("output_filter.jsonl", ['personality', 'role'])
+    # get_mappings("output_filter.jsonl", "output_mapping.jsonl")
+    get_mappings("output_filter_test.jsonl", "output_mapping_test.jsonl")

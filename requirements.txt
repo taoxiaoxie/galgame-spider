@@ -1,11 +1,12 @@
 aiofiles
-<<<<<<< HEAD
 httpx
 tqdm
 bs4
 matplotlib
 numpy
-=======
 tqdm
 httpx
->>>>>>> d7dd6d8779b8eb55abf173fe44ef4f3e3330bdd1
+nltk
+transformers
+torch
+scipy
