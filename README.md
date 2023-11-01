@@ -16,3 +16,5 @@ python3 main.py
 ```
 > 注； 信号量设置为10，间隔时间为0.3s，(`config.py`)可根据自己的需求进行修改。
 > 太快会被封ip。
+
+pip install -r requirement.txt

@@ -57,7 +57,7 @@ class GalGameCharacterCrawler:
                 logger.error(f"Unexpected error: {str(e)}")
                 return None
 
-async def save_to_jsonl(data, filename="output.jsonl"):
+async def save_to_jsonl(data, filename="output_test.jsonl"):
     async with aiofiles.open(filename, mode='a') as f:
         await f.write(json.dumps(data) + '\n')
 
